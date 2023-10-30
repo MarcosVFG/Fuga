@@ -1,5 +1,3 @@
-@media screen and (max-width: 1159px) {
-   
   .container {
     display: flex;
     overflow: hidden;
@@ -7,66 +5,18 @@
     align-items: center;
   }
 
-  .foto {
-    width: 100%;
-    background-size: contain;
-    height: 100vh;
-    overflow: hidden;
-  }
-
   .teste {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 
     position: absolute;
-    width: 40%;
-    height: 55rem;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    border-radius: 10px; 
-    padding: 20px; 
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
-  }
-
-  .teste h1 {
-    padding-bottom: 3rem;
-  }
-
-  .dias {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 100%;
-    overflow: auto;
-  }
-}
-
-@media screen and (min-width: 1160px) {
-  .container {
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .foto {
-    width: 100%;
-    background-size: contain;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  .teste {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    position: absolute;
-    width: 40%;
-    height: 50%;
+    width: 32%;
+    height: 22rem;
+    min-width: 350px;
+    margin-bottom: 15rem;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     border-radius: 10px; 
@@ -82,4 +32,3 @@
     display: flex;
     flex-direction: row;
   }
-}
